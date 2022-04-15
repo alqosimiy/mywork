@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slateblue;
+    display: grid;
+    grid-template-rows: 100px 1fr 70px;
+    height: 100vh;
+}
+
+.header {
+    background-color: green;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main {
+    background-color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer {
+    background-color: gray;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
